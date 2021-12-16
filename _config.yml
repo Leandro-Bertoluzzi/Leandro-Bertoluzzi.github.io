@@ -5,6 +5,9 @@ description: >- # this means to ignore newlines until "twitter_username:"
 twitter_username: LeaBertoluzzi
 github_username:  Leandro-Bertoluzzi
 
+baseurl: "/"
+url: "https://leandro-bertoluzzi.github.io"
+
 # Build settings
 theme: jekyll-theme-dinky
 plugins:

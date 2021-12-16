@@ -1,17 +1,46 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default: "en" }}">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
     {% include head.md %}
   </head>
   <body>
-    {% include main-nav.md %}
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
-    {% include footer.md %}
+    <div class="wrapper">
+      <header>
+        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.github.is_project_page %}
+          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+
+        <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li>
+
+        {% if site.github.is_user_page %}
+          <ul>
+            <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
+          </ul>
+        {% endif %}
+      </header>
+
+      <section>
+        {% include main-nav.md %}
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </section>
+
+      {% include footer.md %}
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>
 </html>
