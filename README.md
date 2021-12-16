@@ -5,13 +5,13 @@
 <h1 align="center">Leandro Bertoluzzi's personal page</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Leandro-Bertoluzzi/leandro-bertoluzzi-github-io?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Leandro-Bertoluzzi/Leandro-Bertoluzzi.github.io?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Leandro-Bertoluzzi/leandro-bertoluzzi-github-io?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Leandro-Bertoluzzi/Leandro-Bertoluzzi.github.io?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Leandro-Bertoluzzi/leandro-bertoluzzi-github-io?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Leandro-Bertoluzzi/Leandro-Bertoluzzi.github.io?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/Leandro-Bertoluzzi/leandro-bertoluzzi-github-io?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/Leandro-Bertoluzzi/Leandro-Bertoluzzi.github.io?color=56BEB8">
 </p>
 
 <!-- Status -->
