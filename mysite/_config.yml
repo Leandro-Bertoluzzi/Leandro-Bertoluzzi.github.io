@@ -9,3 +9,4 @@ github_username:  Leandro-Bertoluzzi
 theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
