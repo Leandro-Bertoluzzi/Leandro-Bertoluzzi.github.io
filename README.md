@@ -1,7 +1,3 @@
-<div align="center" id="top"> 
-  <!-- <img src="./.github/app.gif" alt="Leandro Bertoluzzi Github Io" /> -->
-</div>
-
 <h1 align="center">Leandro Bertoluzzi's personal page</h1>
 
 <p align="center">
@@ -44,9 +40,6 @@ The following tools were used in this project:
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-
 Made with :heart: by <a href="https://github.com/Leandro-Bertoluzzi" target="_blank">Leandro Bertoluzzi</a>
-
-&#xa0;
 
 <a href="#top">Back to top</a>

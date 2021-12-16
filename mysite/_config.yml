@@ -1,0 +1,11 @@
+title: Leandro's homepage
+email: leajb10@gmail.com
+description: >- # this means to ignore newlines until "twitter_username:"
+  Leandro Bertoluzzi's personal page.
+twitter_username: LeaBertoluzzi
+github_username:  Leandro-Bertoluzzi
+
+# Build settings
+theme: jekyll-theme-dinky
+plugins:
+  - jekyll-feed
