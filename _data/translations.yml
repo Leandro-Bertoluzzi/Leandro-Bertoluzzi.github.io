@@ -7,3 +7,9 @@ differentLanguage:
 home:
   en: "Home"
   es: "Inicio"
+githubProfile:
+  en: "GitHub Profile"
+  es: "Perfil de GitHub"
+viewOnGithub:
+  en: "View on GitHub"
+  es: "Ver en GitHub"
