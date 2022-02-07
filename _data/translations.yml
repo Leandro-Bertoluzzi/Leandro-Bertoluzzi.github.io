@@ -1,9 +1,12 @@
+siteTitle:
+  en: "Leandro Bertoluzzi's personal page"
+  es: "Sitio personal de Leandro Bertoluzzi"
 relatedPosts:
   en: "Related Posts"
   es: "Artículos Relacionados"
 differentLanguage:
   en: "Read this page in a different language"
-  es: "Lea esta página en un idioma diferente"
+  es: "Lea esta página en otro diferente"
 home:
   en: "Home"
   es: "Inicio"
@@ -13,3 +16,6 @@ githubProfile:
 viewOnGithub:
   en: "View on GitHub"
   es: "Ver en GitHub"
+viewIn:
+  en: "View in"
+  es: "Ver en"

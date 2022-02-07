@@ -8,7 +8,11 @@
         <em>{{ site.data.translations['differentLanguage'][page.lang] }}:</em>
         <ul>
         {% for post in posts %}
-        <li><a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="View in {{post.lang}}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a></li>
+        <li>
+            <a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="{{ site.data.translations['viewIn'][post.lang] }} {{ post.lang }}">
+                {{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}
+            </a>
+        </li>
         {% endfor %}
         </ul>
     </footer>
