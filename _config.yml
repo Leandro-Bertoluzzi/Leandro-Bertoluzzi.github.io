@@ -10,3 +10,7 @@ theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+
+# Custom styles
+sass:
+  sass_dir: ./css
